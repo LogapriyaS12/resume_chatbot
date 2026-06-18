@@ -1,0 +1,41 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node modules & frontend builds
+**/node_modules/
+**/dist/
+frontend/dist/
+
+# SQLite databases
+*.db
+*.sqlite
+backend/database/*.db
+backend/database/*.sqlite
+
+# Uploads & local databases
+backend/uploads/
+backend/vectorstores/
+
+# Local configuration / Environment variables
+.env
+backend/.env
+frontend/.env
+**/local_settings.py
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
